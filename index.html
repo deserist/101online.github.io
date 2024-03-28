@@ -327,7 +327,7 @@
 
                             <div>
                                 
-                               
+                              
                             </div>
 
 
@@ -2283,23 +2283,7 @@ TOSHIBA 49UA2063DT/2 49"ULTRA HD SMART TV <br>Fabrika Kodu: 10131740 <br>urun Ko
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bundle.js"></script>
-<script>
-    var countDownDate = new Date($("#countdown").data("time")).getTime();
-    var x = setInterval(function () {
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("countdown").innerHTML = days + " gun " + hours + " saat "
-            + minutes + " dakika " + seconds + " saniye ";
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("countdown").innerHTML = "Kampanya Son Saatler Hemen Sipariş Ver";
-        }
-    }, 1000);
-</script>
+
 <script src="js/product-view.js"></script>
 
 
